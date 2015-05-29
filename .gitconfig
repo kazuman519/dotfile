@@ -1,0 +1,26 @@
+[color]
+diff   = auto
+status = auto
+branch = auto
+ui     = always
+
+[core]
+excludesfile = ~/.gitignore
+pager = "lv -c -Ou8"
+
+[user]
+name  = miura
+email = miura@mfac.jp
+
+[alias]
+co = checkout
+ci = commit -v
+st = status
+di = diff
+cb = branch --contains=HEAD
+
+[push]
+default = current
+
+[http]
+sslVerify = false
